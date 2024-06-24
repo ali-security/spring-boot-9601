@@ -70,11 +70,11 @@ tasks.withType(org.asciidoctor.gradle.jvm.AbstractAsciidoctorTask) {
 	}
 }
 
-asciidoctor {
-	sources {
-		include "index.adoc"
-	}
-}
+// asciidoctor {
+// 	sources {
+// 		include "index.adoc"
+// 	}
+// }
 
 task asciidoctorPdf(type: org.asciidoctor.gradle.jvm.AsciidoctorTask) {
 	sources {
